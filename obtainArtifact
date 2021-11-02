@@ -1,0 +1,16 @@
+void obtainArtifact() {
+    turnRight();
+    turn_left();
+    pickBeeper();
+    turn_left();
+}
+
+void turn_left() {
+    moveForward();
+    turnLeft();
+    moveForward();
+    moveForward();
+    moveForward();
+    turnLeft();
+    moveForward();
+}
